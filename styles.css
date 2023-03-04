@@ -1,0 +1,147 @@
+:root {
+  /* color palette */
+
+  /* primary colors */
+  --violet: hsl(263, 55%, 52%);
+  --ocean-blue: hsl(217, 19%, 35%);
+  --space-blue: hsl(219, 29%, 14%);
+  --cloud: hsl(0, 0%, 100%);
+
+  /* neutral colors */
+  --light-gray: hsl(0, 0%, 81%);
+  --oceanblue-light: hsl(210, 46%, 95%);
+
+  /* typography */
+  --ff: "Barlow Semi Condensed", sans-serif;
+  --fw-5: 500;
+  --fw-6: 600;
+}
+
+/************
+--- RESET ---
+************/
+
+/* box sizing, margin reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/**************
+--- GENERAL ---
+**************/
+
+body {
+  background: var(--oceanblue-light);
+  font-family: var(--ff);
+  min-height: 100vh;
+  line-height: 1.5;
+  display: grid;
+  place-content: center;
+}
+
+/**************
+--- UTILITY ---
+**************/
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.bg-violet {
+  background: var(--violet);
+}
+
+.bg-oceanblue {
+  background: var(--ocean-blue);
+}
+
+.bg-spaceblue {
+  background: var(--space-blue);
+}
+
+.bg-cloud {
+  background: var(--cloud);
+}
+
+.text-cloud {
+  color: var(--cloud);
+}
+
+.text-oceanblue {
+  color: var(--ocean-blue);
+}
+
+.img-border-accent {
+  border: 2px solid #a775f1;
+}
+
+/****************
+--- COMPONENT ---
+****************/
+
+.testimonial-grid {
+  display: grid;
+  gap: 1.5rem;
+  padding-block: 2rem;
+  margin-inline: auto;
+  width: min(90%, 70rem);
+}
+
+.testimonial {
+  font-size: 0.8125rem;
+  margin-top: 1em;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 2.3rem 3.7rem 3rem -3rem hsl(217, 19%, 35%);
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  width: 1.75rem;
+  aspect-ratio: 1;
+}
+
+.quote {
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+}
+
+.name {
+  font-weight: var(--fw-6);
+  font-size: 0.8125rem;
+  line-height: 1;
+}
+
+.credential {
+  opacity: 0.5;
+  font-size: 0.6875rem;
+}
+
+.testimonial-title {
+  line-height: 1.2;
+  font-size: 1.285rem;
+  margin-top: 0.75rem;
+}
+
+.testimonial-quote {
+  opacity: 0.7;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+}
