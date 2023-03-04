@@ -10,13 +10,14 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: https://stephnicoledev.github.io/testimonials/
 
 ## My process
 
 ### Built with
 
 - HTML5
+- CSS Flexbox
 - CSS Grid
 - Mobile-first approach
 - Media query for desktop users
