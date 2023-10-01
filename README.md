@@ -1,23 +1,12 @@
-# Frontend Mentor - Testimonials
+<h2 align="center">Testimonial Page</h2>
 
 ![](design/desktop-design.jpg)
 
-### The challenge
+<div align="center"><a href="https://stephnicoledev.github.io/testimonials/"><strong>Live Site</strong></a></div>
 
-Users should be able to:
+## How It's Made:
 
-- View the optimal layout for the site depending on their device's screen size
+**Tech used:** HTML, CSS
 
-### Links
-
-- Live Site URL: https://stephnicoledev.github.io/testimonials/
-
-## My process
-
-### Built with
-
-- HTML5
-- CSS Flexbox
-- CSS Grid
-- Mobile-first approach
-- Media query for desktop users
+- Utilized CSS Grid and Flexbox to ensure a responsive design.
+- Mobile-first approach with a media query for larger screen devices.
